@@ -1,0 +1,10 @@
+# simulation of using yaml
+MODEL:
+  ARCH: "ASPP"
+INPUT:
+  SIZE_CLS: 48
+  SIZE_DET: 96
+SOLVER:
+  BATCH_SIZE_CLS: 16
+  BATCH_SIZE_DET: 16
+  BASE_LR: 0.01
